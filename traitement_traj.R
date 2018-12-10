@@ -2,6 +2,8 @@ library(data.table)
 TrajDir="C:/Users/Yves Bas/Documents/chiroptera/Donnees"
 TrajFiles=list.files(TrajDir,pattern="_TrajData.csv",recursive=T,full.names=T)
 VarToConsider=c("NbPosit", "Disttot", "Distdir", "SdDist",  "AnglTot"
+                , "DecTA" ,  "PasMax"  ,"PasMed" , "XMax","XMin"   , "XMean" ,  "XMed"
+                ,"YMax"   , "YMin"  ,  "YMean"  , "YMed" ,   "Dur" 
                 ,"Vit"   ,  "Dens"  ,   "Straight" ,    "AnglMoy")
 
 SampleY=2015
